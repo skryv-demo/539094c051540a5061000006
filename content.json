@@ -1,24 +1,42 @@
 {
     "algemeen": {
-        "jaar_van_datacollectie": 2013
+        "jaar_van_datacollectie": 2013,
+        "creatiedatum_van_klinische_file": "Thu Jun 05 2014 00:00:00 GMT+0200 (CEST)"
     },
     "patientgegevens": {
-        "geslacht": {},
+        "geslacht": {
+            "selectedChoice": "Man"
+        },
         "overlijden": {
             "selectedChoices": {}
         },
-        "etniciteit_vader": {},
-        "etniciteit_moeder": {},
+        "etniciteit_vader": {
+            "selectedChoice": "Kaukasisch"
+        },
+        "etniciteit_moeder": {
+            "selectedChoice": "Kaukasisch"
+        },
         "naam": "Doe",
-        "voornaam": "John"
+        "voornaam": "John",
+        "geboortedatum": "Fri Oct 01 1999 00:00:00 GMT+0200 (CEST)",
+        "datum_van_de_eerste_insulinetoediening": "Wed Nov 06 2013 00:00:00 GMT+0100 (CET)",
+        "patient_niss": 99100126383,
+        "arrondissement": null
     },
     "datacollectie": {
         "algemeen": {
             "taalproblemen": {
                 "selectedChoices": {}
             },
-            "puberteitprepuberteit": {},
-            "insulineschema": {}
+            "puberteitprepuberteit": {
+                "selectedChoice": "Puberteit"
+            },
+            "insulineschema": {
+                "selectedChoice": "Insulinepomp"
+            },
+            "datum_van_de_meest_recente_consultatie": "Wed Dec 18 2013 00:00:00 GMT+0100 (CET)",
+            "de_patient_was_gedurende_het_ganse_kalenderjaar_in_behandeling_bij_dit_centrum": false,
+            "kerngezin": false
         },
         "metingen": {
             "lengte": {
@@ -28,7 +46,16 @@
                 "gewicht_kg": 40
             },
             "systolische_bloeddruk": {},
-            "diastolische_bloeddruk": {}
+            "diastolische_bloeddruk": {},
+            "bloeddruk": {
+                "systolische_bloeddruk_mmhg": 150,
+                "diastolische_bloeddruk_mmhg": 100
+            },
+            "hba1c": {
+                "hba1c_": 2,
+                "aantal_bepalingen_van_hba1c_in_het_voorbije_kalenderjaar": 3
+            },
+            "insulinedosis_iedag": 20
         },
         "screenings": {
             "coeliakie": {
