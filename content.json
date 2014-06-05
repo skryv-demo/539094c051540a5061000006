@@ -45,8 +45,12 @@
             "gewicht": {
                 "gewicht_kg": 40
             },
-            "systolische_bloeddruk": {},
-            "diastolische_bloeddruk": {},
+            "systolische_bloeddruk": {
+                "systolische_bloeddruk_mmhg": 130
+            },
+            "diastolische_bloeddruk": {
+                "diastolische_bloeddruk_mmhg": 100
+            },
             "bloeddruk": {
                 "systolische_bloeddruk_mmhg": 150,
                 "diastolische_bloeddruk_mmhg": 100
